@@ -1,45 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Bad+Script);
+
 body{
     text-align:center;
-    font-family: 'Lobster', cursive;
-    color: #fff;
-    background-color: #000066;
+    font-family: 'Bad Script', cursive;
+    background: url(https://static.pexels.com/photos/5833/nature-grass-green-book.jpg) no-repeat;
+    background-size :cover;
 }
+
 h1{
-    font-size: 40px;
+    font-size: 45px;
+    color: #4099FF;
 }
 
 .container{
-    width: 600px;
-    text-align: center; 
+    width: 650px;
     margin: 0px auto;   
     height: auto;
-    margin: 0 auto;   
-    padding: 20px;
-    background-color: rgba(255,255,255,0.9);
-    border-radius: 15px;
-    box-shadow: -10px 10px 20px rgba(100,100,100,.8);
-    color: #191970;
+    margin: 0px auto;   
+    padding: 10px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 5px;
+    box-shadow: 7px 7px 10px rgba(100,100,100,.8);
 }
 .quote{
     font-size: 26px;
-    color: #000;
 
 }
 
 
 .author{
-    color: #000;
     font-size: 19px;
-    font-family: cursive;
-
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    margin-top: 15px;
 }
 .button{
-    margin: 30px;
-    font-family: 'Lobster', cursive;
-    color: #000;
-    height: 50px;
-    width:100px;
-    font-size: 15px;
-    border-radius:15px;
+    margin: 40px;
+    font-family: 'Bad Script', cursive;
+    width:120px;
+    font-size: 18px;
+    border-radius:7px;
+    background-color: rgba(255,255,255,.8);
 }
 
+.tweet{
+  background-color: #4099FF;
+  color: #fff;
+  border-color: #4099FF;
+}
+
+.newQuote{
+  background-color: #FF3300;
+  color: #fff;
+  border-color: #FF3300;
+}
